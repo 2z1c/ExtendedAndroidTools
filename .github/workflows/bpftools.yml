@@ -1,6 +1,9 @@
 name: Build bpftools archives
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - develop
 
 jobs:
   build_bpftools:
